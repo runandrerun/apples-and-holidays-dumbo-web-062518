@@ -79,7 +79,8 @@ def all_holidays_with_bbq(holiday_hash)
   bbq = []
   
   holiday_hash.each do |season, holiday|
-    holiday.each do |holiday, supply|
+    holiday.each do |holiday, activity|
+      activity.each do 
 end
 
 
